@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="axis.guren.com.cinemania.MainActivity"
+    android:background="#fffffF"
+  >
+
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Play"
+        android:drawableLeft="@drawable/playnow"
+        android:theme="@style/PrimaryFlatButton2"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:drawableLeft="@drawable/settings"
+        android:text=" Settings"
+        android:theme="@style/PrimaryFlatButton2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+    <Button
+        android:id="@+id/btn_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" Help"
+        android:drawableLeft="@drawable/help"
+        android:theme="@style/PrimaryFlatButton2"
+        android:layout_below="@+id/btn_settings"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_help"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:drawableLeft="@drawable/about"
+        android:text=" About"
+        android:theme="@style/PrimaryFlatButton2" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+
+        android:drawableLeft="@drawable/pusuan"
+        android:text="Send us love!"
+        android:theme="@style/PrimaryFlatButton2"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:drawableRight="@drawable/facebook"
+        android:text="Like us!"
+        android:theme="@style/PrimaryFlatButton2" />
+
+</RelativeLayout>

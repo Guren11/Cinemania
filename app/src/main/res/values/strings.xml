@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Cinemania</string>
+
+    <string name="playme">Play</string>
+    <string name="menu2">Settings</string>
+    <string name="menu3">About</string>
+
+
+    <!-- APP INTRO -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Cinemania</string>
+    <string name="slide_1_desc">Welcome to Cinemania! This is a game designed to test your film knowldege. Before starting, let us show you the basics.</string>
+
+    <string name="slide_2_title">CineScreen</string>
+    <string name="slide_2_desc">This is the CineScreen, where a short clip of a film will be played on loop. Your current level is shown below.</string>
+
+    <string name="slide_3_title">Answer Section</string>
+    <string name="slide_3_desc">This is the Answer section, where you type the title of the film that is being played on the CineScreen or use hints if you dont know the answer. There are some cases where you are required to type in the films year of release after the title.</string>
+
+    <string name="slide_4_title">Hints</string>
+    <string name="slide_4_desc">The game has two kinds of Hints:
+The Synopsis hint, where a brief plot summary of the film is shown; and
+The Cast hint, where a list of the principle cast members is shown.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
